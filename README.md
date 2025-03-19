@@ -3,8 +3,7 @@
 This project involves the development of a Multi-Cycle Processor (MCP) using Verilog. The processor operates with a 16-bit ALU, a Register File with 16 general-purpose registers, Data and Instruction Memory, and a Control Unit.
 
 ## Files Included
-- MCP.v: The Verilog module for the MCP processor.
-- test_MCP.v: The testbench for verifying the MCP processor's functionality.
+- MCP.v: The Verilog module for the MCP processor, which includes the design and the testbench.
 - AdvancendReport.pdf: The project report detailing the design, implementation, and testing process.
 
 ## Description
@@ -14,6 +13,6 @@ Testing has been performed to verify that the processor correctly handles instru
 
 ## How to Run
 1. Use any Verilog simulator to compile and simulate the design.
-2. Run the testbench (test_MCP.v) to verify the functionality of the processor.
+2. Run the simulation to verify the functionality of the processor, as the testbench is included in the same Verilog file.
 
 
